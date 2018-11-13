@@ -5,7 +5,5 @@ import Proceso.ListaArticulosConsumidos;
 
 public class Pedido {
 
-    public Pedido() {
-    }
-
+    
 }
