@@ -19,14 +19,16 @@ public class VentanaInventario extends JFrame {
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         this.setSize(500, 400);
         this.setLocation(300, 300);
-        this.setTitle("Mi ventana");
+        this.setTitle("Gestion de Inventario");
         this.setVisible(true);
         this.pnlBtnsIngresoInv = new PanelBotonesIngresoInventario();
         this.add(this.pnlBtnsIngresoInv, BorderLayout.CENTER);
-        
-        this.pnlBtnsGenerarInv = new PanelBtnsGenerarInventario();
-       
+
         this.pnlTablaInv = new PanelTablaInventario();
+        this.add(this.pnlTablaInv, BorderLayout.SOUTH);
+
+        this.pnlBtnsGenerarInv = new PanelBtnsGenerarInventario();
+        this.add(this.pnlBtnsGenerarInv, BorderLayout.SOUTH);
 
     }
 }
