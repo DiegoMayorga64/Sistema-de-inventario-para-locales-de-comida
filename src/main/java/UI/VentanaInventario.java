@@ -21,6 +21,7 @@ public class VentanaInventario extends JFrame {
         this.setLocation(300, 300);
         this.setTitle("Gestion de Inventario");
         this.setVisible(true);
+        
         this.pnlBtnsIngresoInv = new PanelBotonesIngresoInventario();
         this.add(this.pnlBtnsIngresoInv, BorderLayout.CENTER);
 

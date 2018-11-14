@@ -6,12 +6,12 @@ import java.awt.event.ActionListener;
 import javax.swing.JPanel;
 import javax.swing.JButton;
 
-public class PanelBotonesIngresoInventario extends JButton implements ActionListener {
+public class PanelBotonesIngresoInventario extends JPanel implements ActionListener {
 
     private JButton btnEliminarProducto;
     private JButton btnIngresarProducto;
 
-    public void PanelBotonesINgresoInventario() {
+    public void PanelBotonesIngresoInventario() {
         this.inicializarComponente();
     }
 
